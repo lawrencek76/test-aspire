@@ -1,0 +1,6 @@
+<Project>
+    <PropertyGroup>
+        <langVersion>latest</langVersion>
+        <UserSecretsId>testingaspire</UserSecretsId>
+    </PropertyGroup>
+</Project>
