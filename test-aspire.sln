@@ -10,6 +10,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test-aspire.ApiService", "t
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test-aspire.Web", "test-aspire.Web\test-aspire.Web.csproj", "{4A2FFFE0-8683-4433-8600-12A13F9CA2A6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		global.json = global.json
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test-aspire.AppConsole", "test-aspire.AppConsole\test-aspire.AppConsole.csproj", "{8F1F03F6-6309-4222-B83F-15DF443521FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +43,10 @@ Global
 		{4A2FFFE0-8683-4433-8600-12A13F9CA2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A2FFFE0-8683-4433-8600-12A13F9CA2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A2FFFE0-8683-4433-8600-12A13F9CA2A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F1F03F6-6309-4222-B83F-15DF443521FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F1F03F6-6309-4222-B83F-15DF443521FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F1F03F6-6309-4222-B83F-15DF443521FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F1F03F6-6309-4222-B83F-15DF443521FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
